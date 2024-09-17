@@ -2,7 +2,7 @@ const container = document.getElementById("lambda-content");
 
 function addLambdaBlocks() {
   const screenWidth = window.innerWidth;
-  const lambdaTemplate = "λ x. x x ";
+  const lambdaTemplate = "(λx. x x)";
 
   for (let i = 0; i < 200; i++) {
     // Generate 20 rows
