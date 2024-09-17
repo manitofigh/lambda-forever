@@ -1,0 +1,36 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+#container {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.intro-text {
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.lambda-block {
+  font-size: 20px;
+  line-height: 1.5;
+  white-space: nowrap; /* Keep expressions in one line */
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.lambda-block span {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.lambda-block span.lambda {
+  font-size: 25px;
+}
